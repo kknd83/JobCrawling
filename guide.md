@@ -32,4 +32,10 @@ http://blog.naver.com/PostView.nhn?blogId=wwwkasa&logNo=220887423122
 
 
 
+### 코드정리 사이트 
+https://prettydiff.com/?m=beautify
+https://beautifier.io/
+
+pip install requests
+
 

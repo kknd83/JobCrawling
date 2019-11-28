@@ -9,23 +9,13 @@ https://webnautes.tistory.com/779
 
 구글 검색 : 파이썬 동적 웹페이지 크롤링
 
-
-
-https://l0o02.github.io/2018/06/09/python-crawling-1_copy0/
-
-
+네이버와 함께 정복하는 크롤링 스터디
+https://book.coalastudy.com/data-crawling/week-3/stage-3
 
 https://www.fun-coding.org/crawl_advance5.html  -xpath 를 이용한 크롤링 
 https://fabl1106.github.io/python/2019/04/25/%ED%8C%8C%EC%9D%B4%EC%8D%AC-22.-%EB%8F%99%EC%A0%81%ED%81%AC%EB%A1%A4%EB%A7%81(Ajax,-JSON).html
 
 
-
-# 웹크롤링 기본 - CSS Selector를 사용한 크롤링
-https://www.fun-coding.org/crawl_basic4.html
-
-
-# 웹사이트 크롤링 DB에 저장하기
-https://uslifelog.tistory.com/54
 
 
 # 프로그래머스 채용정보 사이트 분석 
@@ -40,3 +30,24 @@ https://uslifelog.tistory.com/54
 </div>
 
 ```
+
+# 파이썬 크롤링한 결과 엑셀에 저장하기 
+http://blog.naver.com/PostView.nhn?blogId=kiddwannabe&logNo=221274278923&parentCategoryNo=&categoryNo=35&viewDate=&isShowPopularPosts=false&from=postView
+
+
+# 웹크롤링 기본 - CSS Selector를 사용한 크롤링
+https://www.fun-coding.org/crawl_basic4.html
+
+# 파이썬 페이징 크롤링
+https://l0o02.github.io/2018/06/14/python-crawling-pagination-1/
+
+# 웹사이트 크롤링 DB에 저장하기
+https://uslifelog.tistory.com/54
+
+
+# 파이썬 예외처리
+https://wayhome25.github.io/python/2017/02/26/py-12-exception/
+
+# 파이썬 들여쓰기 오류
+unindent does not match any outer indentation level
+https://programmers.co.kr/learn/questions/477
