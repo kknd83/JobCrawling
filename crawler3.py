@@ -57,16 +57,49 @@ for page_number in range(1, maximum+1):
     print(URL)
     response = requests.get(URL)
     whole_source = whole_source + response.text
-soup = BeautifulSoup(whole_source, 'html.parser')
+html = BeautifulSoup(whole_source, 'html.parser')
 
-print(len(soup))
-find_title = soup.select("h5.company-name")
-#position_job = soup.select("h4.position-title>a")
-print(len(find_title))
-print(find_title)
-for title in find_title:
- 	print(title.text)
+#
+
+#print(len(infos))
+
+
+idx=0
+for tag in html.select('#list-positions-wrapper'):
+    company_names = tag.select("h5.company-name")
+    position_names = tag.select("h4.position-title>a")
+    experiences = tag.select("ul.company-info>li.experience")
+    locations = tag.select("ul.company-info>li.location")
+    
+    #print(company_names)
+    #print(position_names)
+
+    for i in range(1, len(company_names),1):
+        print(company_names[i].text +" , "+position_names[i].text +" , "+experiences[i].text.strip()+","+locations[i].text.strip())
+        
+
+
+#find_title = soup.select("h5.company-name")
+
+#print(len(find_title))
+#print(find_title)
+
+
+
+
+# for info in infos:
+#     company_name = info.select("h5.company-name")
+#     position_name = info.select("h4.position-title>a")
+    # print(company_name)
+    # print(position_name)
+    #print("#######")
+    
+    #print(company_name)
+    #print(position_name)
 
 
 # 여러데이터 한꺼번에 파싱하기
 #https://book.coalastudy.com/data-crawling/week-5/pre
+
+#19.11.29일  여러데이터 한꺼번에 파싱 좀더 좋은에제 - 네이버 블로그 크롤링 해보기 
+#https://software-creator.tistory.com/20
