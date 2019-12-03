@@ -51,3 +51,22 @@ https://wayhome25.github.io/python/2017/02/26/py-12-exception/
 # 파이썬 들여쓰기 오류
 unindent does not match any outer indentation level
 https://programmers.co.kr/learn/questions/477
+
+
+# 파이썬 가상환경 
+https://woolbro.tistory.com/25
+https://woolbro.tistory.com/26
+https://woolbro.tistory.com/27
+
+# 파이썬 가상환경 설치방법
+- python -m venv "가상환경이름"
+- python -p python3 "가상환경이름"
+- cmd 창을 열어서 가상환경 설치디렉토리로 이동후 activate 실행한다. (windows)
+- source 디렉토리명/activate (mac)
+- 패키지 검색 (pythonBasic)pip search simplejson
+- 패지시 설치 (pythonBasic)pip install simplejson
+- 패키지 리스트 출력 (pythonBasic)pip list
+- 가상환경 사용하기 가상환경 실행후 (pythonBasic) code   VSCode를 실행한다.
+- 패키지 목록 저장하기 (pythonBasic)pip freeze > fileList.txt
+- 패키지 목록-> 재설치 (pythonBasic)pip install -r fileList.txt
+
