@@ -70,3 +70,37 @@ https://woolbro.tistory.com/27
 - 패키지 목록 저장하기 (pythonBasic)pip freeze > fileList.txt
 - 패키지 목록-> 재설치 (pythonBasic)pip install -r fileList.txt
 
+# 파이썬으로 배우는 알고리즘 트레이등 (개정판 - 2쇄)
+
+# 파이썬 selenium 사용법 
+https://engkimbs.tistory.com/896
+
+- https://chromedriver.chromium.org/downloads os에 해당하는 크롬드라이브를 다운로드 받는다.
+- http://pythonstudy.xyz/python/article/404-%ED%8C%8C%EC%9D%B4%EC%8D%AC-Selenium-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
+- https://beomi.github.io/2017/01/20/HowToMakeWebCrawler/ (추천)
+
+- https://beomi.github.io/beomi.github.io_old/
+- https://beomi.github.io/beomi.github.io_old/python/2017/02/27/HowToMakeWebCrawler-With-Selenium.html
+
+### Selenium 과 PhantomJS에서 CSS3 Selector 이용하기
+https://www.fun-coding.org/crawl_advance4.html
+
+### 파이썬 웹 스크래핑 솔루션 scrapy
+https://engkimbs.tistory.com/893?category=767879
+
+
+
+### 파이썬 공인인증서 다루기 
+- https://blog.bandoche.com/647
+- https://github.com/bandoche/PyPinkSign?fbclid=IwAR3HPjTIJpPN7x1b5JWLJkuY14ou4geGJHf4qiG1ZSyIqcdYmi2UzyRKYBg
+- https://gist.github.com/twkang/f5acf360c67ea0bf3f55
+- https://kmong.com/gig/172979
+- https://www.clien.net/service/board/park/13207471
+- https://github.com/bandoche/PyPinkSign
+
+### 자바 공인인증서 관련
+- https://dmaxm11.tistory.com/61
+- https://m.blog.naver.com/PostView.nhn?blogId=miku77&logNo=80174044587&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F
+- https://powercorea77.tistory.com/30
+- https://patents.google.com/patent/KR101785481B1/ko
+- https://www.wishket.com/project/%EB%82%B4%EB%B6%80-%EC%97%85%EB%AC%B4%EC%9A%A9-%EA%B3%B5%EC%9D%B8%EC%9D%B8%EC%A6%9D%EC%84%9C-%EC%9E%90%EB%8F%99-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%8A%A4%ED%81%AC%EB%9E%98%ED%95%91-%EB%AA%A8%EB%93%88-%EA%B0%9C%EB%B0%9C_51750/
